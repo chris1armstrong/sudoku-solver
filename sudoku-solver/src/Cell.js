@@ -12,7 +12,6 @@ class Cell extends Component {
   }
 
   render(){
-    console.log(this.state)
     return (
       <div className="cell">
         {this.state.value}
