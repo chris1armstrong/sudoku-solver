@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.grid {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+.row:nth-child(3n+3):not(:last-child){
+  border-bottom: 2px solid black;
+}
+
+.cell {
+  height: 3em;
+  width: 3em;
+  border: 1px solid black;
+}
+.cell:nth-child(3n+3):not(:last-child){
+  border-right:3px solid black;
+}
